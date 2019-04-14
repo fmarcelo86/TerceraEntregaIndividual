@@ -8,8 +8,8 @@ var session = require('express-session');
 // Database
 var mongoose = require('mongoose');
 
-//mongodb://localhost:27017/SysMatricula
-mongoose.connect('mongodb+srv://fmarcelo86:mVVZ95Ork2vKTuG2@cluster0-nzmfa.mongodb.net/SysMatricula?retryWrites=true', {useNewUrlParser: true}, (err, resultado) => {
+//mongodb+srv://fmarcelo86:mVVZ95Ork2vKTuG2@cluster0-nzmfa.mongodb.net/SysMatricula?retryWrites=true
+mongoose.connect('mongodb://localhost:27017/SysMatricula', {useNewUrlParser: true}, (err, resultado) => {
     if (err){
         return console.log(error)
     }

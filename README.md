@@ -14,3 +14,7 @@ Ejecutar `node .\bin\www` dentro del directorio raiz del proyecto `(TerceraEntre
 ## Abrir el navegador Web
 
 Ejecutar `http://localhost:3000` para ingresar al sitio web
+
+## Versión Online desplegada en Heroku
+
+https://tercera-entrega-individual.herokuapp.com
